@@ -5,10 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_margin="15dp"
-    app:cardCornerRadius="25dp"
+    app:cardCornerRadius="15dp"
     app:cardElevation="5dp"
     app:cardPreventCornerOverlap="true"
-    app:cardBackgroundColor="@color/black"
+    app:cardBackgroundColor="#333233"
     android:background="@drawable/itembg"
     android:padding="13dp">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,7 +35,8 @@
         android:text="Task Details"
         android:textColor="#E9E9E9"
 android:textSize="25dp"
-        android:layout_marginLeft="8dp"
+
+        android:layout_marginLeft="28dp"
         android:layout_marginTop="2dp" />
 
     <TextView
@@ -44,6 +45,7 @@ android:textSize="25dp"
         android:layout_height="wrap_content"
         android:text="Valid Thru"
         android:textColor="#E4E4E4"
+        android:layout_gravity="end"
         android:textSize="22sp"
         android:layout_marginLeft="13dp"
         android:layout_marginBottom="8dp"
