@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.android.taskcreation"
+    namespace = "com.example.android.taskmanagment"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.android.taskcreation"
+        applicationId = "com.example.android.taskmanagment"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
